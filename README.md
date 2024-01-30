@@ -7,7 +7,7 @@
 2. We utilized DataRobot's automated machine learning capabilities for model development and Streamlit for deploying a real-time analytics application.
 
 **Key Components:**
-<br>**Model Development: **Utilizing DataRobot's AutoML capabilities to develop a predictive model.</br>
+<br>**Model Development:** Utilizing DataRobot's AutoML capabilities to develop a predictive model.</br>
 **Real-Time Analytics:** Integration of the predictive model with Streamlit to provide insights into customer behavior and campaign effectiveness.
 
 **For more details:** 
