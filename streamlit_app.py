@@ -14,8 +14,7 @@ project_id = os.getenv('projectid')
 
 def intro():
 
-    st.write("# Welcome to DataRobot's Streamlit package! 👋")
-    st.sidebar.success("Select a demo above.")
+    st.write("# Welcome to DataRobot's Streamlit app! 👋")
 
     if not deployment_id:
         st.error('The deploymentid environment variable must be set to use the predictor demo', icon='🚨')
@@ -31,18 +30,12 @@ def intro():
          * A distribution of where that falls in the holdout data
          * A table of prediction explanations
          * A histogram of where the input features compare to features inside the training data. 
-         * Colored nGrams for text features
          
-        The predictor app also lets you toggle between the single (AKA real-time) and batch prediction API. 
-        Some deployments (like SHAP) require some more setup to get the single prediction API working, so this toggle
-        can be an easy way to use it.  
+        The predictor app also lets you toggle between the single (AKA real-time) and batch prediction API.  
         
-        The insights demo comes with:
+        The insights section comes with:
         * A model selector for all the models in the project's leaderboard
-        * A class selector for all the classes in the project if it's multiclass
-        * A feature impact chart
-        * A word cloud (if your project has text features and the  model has a word cloud) which can be toggled
-        between various text features of your project. 
+        * A feature impact chart 
         
         """
     )
