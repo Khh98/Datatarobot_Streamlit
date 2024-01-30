@@ -10,5 +10,5 @@
 <br>**Model Development: **Utilizing DataRobot's AutoML capabilities to develop a predictive model.</br>
 **Real-Time Analytics:** Integration of the predictive model with Streamlit to provide insights into customer behavior and campaign effectiveness.
 
-**For more details: ** 
+**For more details:** 
 <br>https://medium.com/@kahazimehh/optimizing-marketing-campaigns-a-data-driven-approach-at-ifood-bdb2e6100bd7</br>
